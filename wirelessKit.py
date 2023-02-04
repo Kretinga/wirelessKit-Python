@@ -58,4 +58,4 @@ elif option == 5:
     name_file = input("Enter the name of the file to crack ( with extension .cap ) >> ")
     bssid = input("BSSID >> ")
     dictionary = input("Path of dictionary to use >> ")
-    os.system("aircrack-ng -b " + bssid + " -w " + " " + dictionary + name_file)
+    os.system("aircrack-ng -b " + bssid + " -w " + " " + dictionary + " " + name_file)
